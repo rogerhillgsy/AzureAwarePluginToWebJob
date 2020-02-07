@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCodeActivity", "PingCodeActivity\AzureCodeActivity.csproj", "{A63B2A78-8CEC-4501-8324-F63C4BB0C4F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureRequestListener", "AzureRequestListener\AzureRequestListener.csproj", "{3CC8E442-DEE5-490F-800D-E8563C51B3EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{B77B07B2-15BF-4607-94BE-5622EF026F1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure Config", "Azure Config", "{64F89541-12AD-4AFB-9E5F-2087EAE29BD6}"
+	ProjectSection(SolutionItems) = preProject
+		ExportedSBTemplate-CRMCloudResources\SBparameters.json = ExportedSBTemplate-CRMCloudResources\SBparameters.json
+		ExportedSBTemplate-CRMCloudResources\SBtemplate.json = ExportedSBTemplate-CRMCloudResources\SBtemplate.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A63B2A78-8CEC-4501-8324-F63C4BB0C4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63B2A78-8CEC-4501-8324-F63C4BB0C4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63B2A78-8CEC-4501-8324-F63C4BB0C4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63B2A78-8CEC-4501-8324-F63C4BB0C4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC8E442-DEE5-490F-800D-E8563C51B3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC8E442-DEE5-490F-800D-E8563C51B3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC8E442-DEE5-490F-800D-E8563C51B3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC8E442-DEE5-490F-800D-E8563C51B3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77B07B2-15BF-4607-94BE-5622EF026F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77B07B2-15BF-4607-94BE-5622EF026F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77B07B2-15BF-4607-94BE-5622EF026F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77B07B2-15BF-4607-94BE-5622EF026F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76726429-1D1A-47C0-9CCE-3F6E5F742B17}
+	EndGlobalSection
+EndGlobal
